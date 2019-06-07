@@ -28,7 +28,8 @@ primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
 lightGreen = #2ecc71
-darkerGreen = #55aa55
+;darkerGreen = #55aa55
+darkerGreen = #519951
 yellow = #ffb52a
 red = #f50a4d
 
@@ -56,12 +57,13 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 font-2 = siji:pixelsize=10;1
+font-3 = FontAwesome:pixelsize=10;1
 
-modules-left = bspwm i3
+modules-left = bspwm i3 spotify
 ;modules-center = date
-modules-right = filesystem xbacklight alsa pulseaudio memory cpu wlan eth custombattery battery temperature date powermenu
+modules-right = filesystem xbacklight alsa pulseaudio memory cpu wlan eth battery temperature date powermenu
 ;modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature powermenu
 
 tray-position = right
@@ -117,7 +119,8 @@ type = internal/bspwm
 
 label-focused = %index%
 label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+;label-focused-underline= ${colors.primary}
+label-focused-underline= ${colors.lightGreen}
 label-focused-padding = 2
 
 label-occupied = %index%
@@ -145,7 +148,7 @@ wrapping-scroll = false
 
 label-mode-padding = 2
 label-mode-foreground = #000
-label-mode-background = ${colors.primary}
+label-mode-background = ${colors.darkerGreen}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
@@ -314,7 +317,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 type = internal/alsa
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL
+label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
 format-muted-prefix = " "
@@ -342,23 +345,17 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 type = internal/battery
 battery = BAT0
 adapter = AC
-full-at = 98
-;exec = python ~/Dropbox/KJ/Programmering/Python/Polybar_Scripts/battery_status.py
-;interval = 1000
-
-;format-underline = %#output%
-
+full-at = 99
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = ${colors.yellow}
-;format-charging-underline = %#output%
+format-charging-underline = ${colors.lightGreen}
 
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
-;format-full-underline = ${self.format-charging-underline}
+format-full-underline = ${self.format-charging-underline}
 ;format-full-underline = ${colors.lightGreen}
 
 ramp-capacity-0 = 
@@ -366,29 +363,29 @@ ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+
+;animation-charging-0 = 
+;animation-charging-1 = 
+;animation-charging-2 = 
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-3 = 
+animation-discharging-4 = 
+
+;animation-discharging-0 = 
+;animation-discharging-1 = 
+;animation-discharging-2 = 
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
-
-[module/getCap]
-type = custom/script
-exec = cat /sys/class/power_supply/BAT0/capacity
-theCap = %output%
-
-[module/custombattery]
-type = custom/script
-exec = python ~/Dropbox/KJ/Programmering/Python/Polybar_Scripts/battery_status.py
-interval = 30
-format = <label>
-format-underline = %#output%
 
 [module/temperature]
 type = internal/temperature
@@ -396,7 +393,7 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = ${colors.lightGreen}
+format-underline = ${colors.darkerGreen}
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${colors.red}
 
@@ -416,7 +413,8 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 
+;label-open = 
+label-open = 
 label-open-foreground = ${colors.secondary}
 label-close =  cancel
 label-close-foreground = ${colors.secondary}
@@ -451,3 +449,13 @@ margin-top = 5
 margin-bottom = 5
 
 ; vim:ft=dosini
+
+[module/spotify]
+type = custom/script
+interval = 1
+;format-prefix = " "
+format-prefix = "   "
+format = <label>
+exec = python ~/.config/polybar/spotify_script.py -f '{artist}: {song}'
+;format-underline = #1db954
+format-underline = ${colors.lightGreen}
