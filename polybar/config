@@ -63,7 +63,7 @@ font-3 = FontAwesome:pixelsize=10;1
 
 modules-left = bspwm i3 spotify
 ;modules-center = date
-modules-right = filesystem xbacklight alsa pulseaudio memory cpu wlan eth battery temperature date powermenu
+modules-right = filesystem xbacklight alsa pulseaudio memory cpu wlan eth battery temperature date dis powermenu
 ;modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature powermenu
 
 tray-position = right
@@ -236,13 +236,15 @@ interval = 3.0
 format-connected = <ramp-signal> <label-connected>
 ;format-connected-underline = #9f78e1
 format-connected-underline = ${colors.darkerGreen}
-label-connected = %essid%
+label-connected = %essid% @ %local_ip%
 
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
+;format-disconnected =
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
+label-disconnected-foreground = ${colors.foreground-alt}
+
+label-disconnected = "   "
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -353,25 +355,35 @@ format-charging-underline = ${colors.lightGreen}
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
+;format-full = <label-full>
+;format-full-foreground = ${colors.foreground-alt}
+;format-full-underline = ${colors.lightGreen}
+
+;format-full-prefix = " "
+format-full-prefix = "   "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 ;format-full-underline = ${colors.lightGreen}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
-animation-charging-4 = 
+animation-charging-0 = "  "
+animation-charging-1 = "  "
+animation-charging-2 = "  "
+animation-charging-3 = "  "
+animation-charging-4 = "  "
 
-;animation-charging-0 = 
-;animation-charging-1 = 
-;animation-charging-2 = 
+;animation-charging-0 = 
+;animation-charging-1 = 
+;animation-charging-2 = 
+;animation-charging-3 = 
+;animation-charging-4 = 
+
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
@@ -381,9 +393,6 @@ animation-discharging-2 = 
 animation-discharging-3 = 
 animation-discharging-4 = 
 
-;animation-discharging-0 = 
-;animation-discharging-1 = 
-;animation-discharging-2 = 
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
 
@@ -459,3 +468,8 @@ format = <label>
 exec = python ~/.config/polybar/spotify_script.py -f '{artist}: {song}'
 ;format-underline = #1db954
 format-underline = ${colors.lightGreen}
+
+[module/dis]
+type = custom/text
+content = "  "
+click-left = ~/.config/screenlayout/screenlayoutchange.sh
