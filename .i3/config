@@ -62,7 +62,7 @@ bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm
 bindsym $mod+F5 exec terminal -e 'mocp'
-bindsym $mod+t exec --no-startup-id pkill compton
+bindsym $mod+Shift+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym Print exec --no-startup-id i3-scrot
@@ -432,3 +432,5 @@ mode "$mode_gaps_outer" {
 
 # RESET SCREEN TO LAPTOP MONITOR
 bindsym Shift+Ctrl+r exec --no-startup-id ~/.config/screenlayout/restore.sh
+
+exec --no-startup-id xset r rate 210 60
