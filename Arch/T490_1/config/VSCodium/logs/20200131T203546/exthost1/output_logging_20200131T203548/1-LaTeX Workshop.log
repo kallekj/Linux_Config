@@ -1,0 +1,574 @@
+[20:35:48] Initializing LaTeX Workshop.
+[20:35:48] Creating LaTeX Workshop http and websocket server.
+[20:35:48] LaTeX Workshop initialized.
+[20:35:48] Found root file from active editor: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:35:48] Root file changed from: undefined to /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex. Find all dependencies.
+[20:35:48] Instantiating a new file watcher for /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:35:48] Creating file watcher for .bib files.
+[20:35:48] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:35:48] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:35:48] Adding .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib to bib file watcher.
+[20:35:48] Parsing .bib entries from /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:35:48] Server created on 127.0.0.1:36939
+[20:35:48] Adding /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex to file watcher.
+[20:35:48] Snippet data loaded.
+[20:35:48] LaTeX Workshop version: 8.7.1
+[20:35:48] Parsed 1 bib entries from /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib.
+[20:36:14] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:14] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:14] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:14] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:36:14] BUILD command invoked.
+[20:36:14] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:14] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:14] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:36:14] LaTeX build process spawned. PID: 79683.
+[20:36:15] LaTeX log parsed with 1 messages.
+[20:36:15] Recipe of length 1 finished. PID: 79683.
+[20:36:15] Successfully built /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:36:15] No PDF viewer connected for /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.pdf
+[20:36:15] Parse fls file.
+[20:36:15] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/moderncv.cls to file watcher.
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/tweaklist.sty to file watcher.
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/moderncvcollection.sty to file watcher.
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/moderncvcompatibility.sty to file watcher.
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/moderncvstyleclassic.sty to file watcher.
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/moderncviconsmarvosym.sty to file watcher.
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/moderncvheadi.sty to file watcher.
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/moderncvbodyi.sty to file watcher.
+[20:36:15] Adding /usr/share/texmf/tex/latex/moderncv/moderncvcolorblue.sty to file watcher.
+[20:36:16] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:16] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:16] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:16] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:36:16] BUILD command invoked.
+[20:36:16] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:16] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:16] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:36:16] LaTeX build process spawned. PID: 79690.
+[20:36:16] Recipe of length 1 finished. PID: 79690.
+[20:36:16] Successfully built /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:36:21] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:21] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:21] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:21] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:36:21] BUILD command invoked.
+[20:36:21] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:21] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:21] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:36:21] LaTeX build process spawned. PID: 79695.
+[20:36:21] Recipe of length 1 finished. PID: 79695.
+[20:36:21] Successfully built /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:36:31] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:31] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:31] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:31] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:36:31] BUILD command invoked.
+[20:36:31] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:31] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:31] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:36:31] LaTeX build process spawned. PID: 79700.
+[20:36:31] Recipe of length 1 finished. PID: 79700.
+[20:36:31] Successfully built /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:36:34] Found root file from active editor: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:34] Root file remains unchanged from: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:36:39] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:39] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:39] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:39] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:36:39] BUILD command invoked.
+[20:36:39] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:39] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:39] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:36:39] LaTeX build process spawned. PID: 79707.
+[20:36:39] LaTeX log parsed with 3 messages.
+[20:36:39] Recipe returns with error: 12/null. PID: 79707. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'main.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s) [refs.bib]
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:36:39] Cleaning auxillary files and retrying build after toolchain error.
+[20:36:39] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.bbl
+[20:36:39] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux
+[20:36:39] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.blg
+[20:36:39] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.out
+[20:36:39] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fdb_latexmk
+[20:36:39] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fls
+[20:36:39] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log
+[20:36:39] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:36:40] LaTeX build process spawned. PID: 79714.
+[20:36:40] LaTeX log parsed with 7 messages.
+[20:36:40] Recipe returns with error: 12/null. PID: 79714. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file 'main.bbl'
+ No file main.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:36:43] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:43] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:43] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:43] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:36:43] BUILD command invoked.
+[20:36:43] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:43] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:43] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:36:43] LaTeX build process spawned. PID: 79721.
+[20:36:45] LaTeX log parsed with 1 messages.
+[20:36:45] Recipe of length 1 finished. PID: 79721.
+[20:36:45] Successfully built /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:36:45] No PDF viewer connected for /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.pdf
+[20:36:45] Parse fls file.
+[20:36:45] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:52] Found root file from active editor: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:52] Root file remains unchanged from: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:36:58] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:58] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:58] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:36:58] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:36:58] BUILD command invoked.
+[20:36:58] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:58] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:36:58] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:36:58] LaTeX build process spawned. PID: 79734.
+[20:36:58] Recipe of length 1 finished. PID: 79734.
+[20:36:58] Successfully built /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:37:03] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:03] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:03] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:37:03] BUILD command invoked.
+[20:37:03] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:03] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:03] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:03] LaTeX build process spawned. PID: 79739.
+[20:37:03] Recipe of length 1 finished. PID: 79739.
+[20:37:03] Successfully built /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:37:06] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:06] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:06] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:37:06] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:37:06] BUILD command invoked.
+[20:37:06] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:06] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:06] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:06] LaTeX build process spawned. PID: 79744.
+[20:37:06] Recipe of length 1 finished. PID: 79744.
+[20:37:06] Successfully built /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex.
+[20:37:13] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:13] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:13] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:37:13] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:37:13] BUILD command invoked.
+[20:37:13] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:13] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:13] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:13] LaTeX build process spawned. PID: 79749.
+[20:37:14] LaTeX log parsed with 4 messages.
+[20:37:14] Recipe returns with error: 12/null. PID: 79749. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'main.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Found bibliography file(s) [refs.bib]
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:14] Cleaning auxillary files and retrying build after toolchain error.
+[20:37:14] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux
+[20:37:14] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.bbl
+[20:37:14] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fls
+[20:37:14] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.blg
+[20:37:14] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.out
+[20:37:14] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log
+[20:37:14] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fdb_latexmk
+[20:37:14] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:14] LaTeX build process spawned. PID: 79756.
+[20:37:15] LaTeX log parsed with 8 messages.
+[20:37:15] Recipe returns with error: 12/null. PID: 79756. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file 'main.bbl'
+ No file main.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:21] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:21] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:21] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:37:21] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:37:21] BUILD command invoked.
+[20:37:21] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:21] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:21] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:21] LaTeX build process spawned. PID: 79763.
+[20:37:22] LaTeX log parsed with 8 messages.
+[20:37:22] Recipe returns with error: 12/null. PID: 79763. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'bibtex main': The following rules & subrules became out-of-date:
+      'bibtex main'
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux'
+      'main.bbl'
+      'main.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:22] Cleaning auxillary files and retrying build after toolchain error.
+[20:37:22] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux
+[20:37:22] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.out
+[20:37:22] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.blg
+[20:37:22] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.bbl
+[20:37:22] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fls
+[20:37:22] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log
+[20:37:22] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fdb_latexmk
+[20:37:22] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:22] LaTeX build process spawned. PID: 79771.
+[20:37:23] LaTeX log parsed with 8 messages.
+[20:37:23] Recipe returns with error: 12/null. PID: 79771. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file 'main.bbl'
+ No file main.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:23] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:23] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:23] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:37:23] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:37:23] BUILD command invoked.
+[20:37:23] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:23] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:23] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:23] LaTeX build process spawned. PID: 79778.
+[20:37:24] LaTeX log parsed with 8 messages.
+[20:37:24] Recipe returns with error: 12/null. PID: 79778. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'bibtex main': The following rules & subrules became out-of-date:
+      'bibtex main'
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux'
+      'main.bbl'
+      'main.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:24] Cleaning auxillary files and retrying build after toolchain error.
+[20:37:24] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux
+[20:37:24] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.bbl
+[20:37:24] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.blg
+[20:37:24] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.out
+[20:37:24] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fls
+[20:37:24] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log
+[20:37:24] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fdb_latexmk
+[20:37:24] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:24] LaTeX build process spawned. PID: 79786.
+[20:37:25] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:25] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:25] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:37:25] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:37:25] BUILD command invoked.
+[20:37:25] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:25] LaTeX log parsed with 8 messages.
+[20:37:25] Recipe returns with error: 12/null. PID: 79786. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file 'main.bbl'
+ No file main.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:25] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:25] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:25] LaTeX build process spawned. PID: 79793.
+[20:37:26] LaTeX log parsed with 8 messages.
+[20:37:26] Recipe returns with error: 12/null. PID: 79793. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'bibtex main': The following rules & subrules became out-of-date:
+      'bibtex main'
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux'
+      'main.bbl'
+      'main.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:26] Cleaning auxillary files and retrying build after toolchain error.
+[20:37:26] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux
+[20:37:26] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.bbl
+[20:37:26] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.blg
+[20:37:26] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fls
+[20:37:26] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fdb_latexmk
+[20:37:26] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log
+[20:37:26] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.out
+[20:37:26] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:26] LaTeX build process spawned. PID: 79801.
+[20:37:27] LaTeX log parsed with 8 messages.
+[20:37:27] Recipe returns with error: 12/null. PID: 79801. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Non-existent bbl file 'main.bbl'
+ No file main.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:42] File watcher: responding to change in /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:42] Parsing /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:42] Found .bib file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/refs.bib
+[20:37:42] /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex changed. Auto build project.
+[20:37:42] BUILD command invoked.
+[20:37:42] Building root file: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:42] Build root file /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.tex
+[20:37:42] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:42] LaTeX build process spawned. PID: 79824.
+[20:37:43] LaTeX log parsed with 8 messages.
+[20:37:43] Recipe returns with error: 12/null. PID: 79824. message: Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Latexmk: Changing directory to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/'
+Rule 'bibtex main': The following rules & subrules became out-of-date:
+      'bibtex main'
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main"'
+------------
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux'
+      'main.bbl'
+      'main.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX"  "main.tex"'
+------------
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: List of undefined refs and citations:
+  Citation `kandidat' on page 2 undefined on input line 177
+Latexmk: Found bibliography file(s) [refs.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex failed to resolve 1 citation(s)
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log' for details
+Latexmk: Undoing directory change
+Latexmk: Use the -f option to force complete processing,
+ unless error was exceeding maximum runs, or warnings treated as errors.
+.
+[20:37:43] Cleaning auxillary files and retrying build after toolchain error.
+[20:37:43] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.blg
+[20:37:43] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.bbl
+[20:37:43] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.aux
+[20:37:43] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.out
+[20:37:43] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.log
+[20:37:43] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fls
+[20:37:43] File cleaned: /home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main.fdb_latexmk
+[20:37:43] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX,-cd,/home/kj/Dropbox/KJ/Övrigt/Jobbrelaterat/CV/LaTeX/main
+[20:37:43] LaTeX build process spawned. PID: 79839.
