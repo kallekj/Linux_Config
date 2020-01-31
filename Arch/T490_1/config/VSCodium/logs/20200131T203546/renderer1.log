@@ -1,45 +1,0 @@
-[2020-01-31 20:36:40.125] [renderer1] [error] Expected "#", "$", "&", "\0", "\\", "^", "_", "{", "~", any character, or special command but end of input found.: SyntaxError: Expected "#", "$", "&", "\0", "\\", "^", "_", "{", "~", any character, or special command but end of input found.
-    at peg$buildStructuredError (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:552:12)
-    at Object.peg$parse [as parse] (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:5964:11)
-    at Object.parse (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser.js:26:29)
-    at Function.parseLatex (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/out/src/components/parser/syntax_worker.js:6:41)
-    at process.<anonymous> (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/workerpool/dist/workerpool.min.js:25:16221)
-    at process.emit (events.js:200:13)
-    at emit (internal/child_process.js:876:12)
-    at processTicksAndRejections (internal/process/task_queues.js:84:9)
-[2020-01-31 20:37:14.880] [renderer1] [error] Expected "#", "$", "%", "&", "\0", "\\", "\n", "\r", "\r\n", "^", "_", "{", "~", " ", " ", [ \t], end of input, or special command but "}" found.: SyntaxError: Expected "#", "$", "%", "&", "\0", "\\", "\n", "\r", "\r\n", "^", "_", "{", "~", " ", " ", [ \t], end of input, or special command but "}" found.
-    at peg$buildStructuredError (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:552:12)
-    at Object.peg$parse [as parse] (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:5964:11)
-    at Object.parse (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser.js:26:29)
-    at Function.parseLatex (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/out/src/components/parser/syntax_worker.js:6:41)
-    at process.<anonymous> (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/workerpool/dist/workerpool.min.js:25:16221)
-    at process.emit (events.js:200:13)
-    at emit (internal/child_process.js:876:12)
-    at processTicksAndRejections (internal/process/task_queues.js:84:9)
-[2020-01-31 20:37:23.005] [renderer1] [error] Expected "#", "$", "%", "&", "\0", "\\", "\n", "\r", "\r\n", "^", "_", "{", "~", " ", " ", [ \t], end of input, or special command but "}" found.: SyntaxError: Expected "#", "$", "%", "&", "\0", "\\", "\n", "\r", "\r\n", "^", "_", "{", "~", " ", " ", [ \t], end of input, or special command but "}" found.
-    at peg$buildStructuredError (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:552:12)
-    at Object.peg$parse [as parse] (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:5964:11)
-    at Object.parse (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser.js:26:29)
-    at Function.parseLatex (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/out/src/components/parser/syntax_worker.js:6:41)
-    at process.<anonymous> (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/workerpool/dist/workerpool.min.js:25:16221)
-    at process.emit (events.js:200:13)
-    at emit (internal/child_process.js:876:12)
-    at processTicksAndRejections (internal/process/task_queues.js:84:9)
-[2020-01-31 20:37:24.766] [renderer1] [error] Expected "#", "$", "%", "&", "\0", "\\", "\n", "\r", "\r\n", "^", "_", "{", "~", " ", " ", [ \t], end of input, or special command but "}" found.: SyntaxError: Expected "#", "$", "%", "&", "\0", "\\", "\n", "\r", "\r\n", "^", "_", "{", "~", " ", " ", [ \t], end of input, or special command but "}" found.
-    at peg$buildStructuredError (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:552:12)
-    at Object.peg$parse [as parse] (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:5964:11)
-    at Object.parse (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser.js:26:29)
-    at Function.parseLatex (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/out/src/components/parser/syntax_worker.js:6:41)
-    at process.<anonymous> (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/workerpool/dist/workerpool.min.js:25:16221)
-    at process.emit (events.js:200:13)
-    at emit (internal/child_process.js:876:12)
-    at processTicksAndRejections (internal/process/task_queues.js:84:9)
-[2020-01-31 20:37:26.288] [renderer1] [error] Expected "#", "$", "%", "&", "\0", "\\", "\n", "\r", "\r\n", "^", "_", "{", "~", " ", " ", [ \t], end of input, or special command but "}" found.: SyntaxError: Expected "#", "$", "%", "&", "\0", "\\", "\n", "\r", "\r\n", "^", "_", "{", "~", " ", " ", [ \t], end of input, or special command but "}" found.
-    at peg$buildStructuredError (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:552:12)
-    at Object.peg$parse [as parse] (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser_simple.js:5964:11)
-    at Object.parse (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/latex-utensils/out/src/latex/latex_parser.js:26:29)
-    at Function.parseLatex (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/out/src/components/parser/syntax_worker.js:6:41)
-    at process.<anonymous> (/home/kj/.vscode-oss/extensions/james-yu.latex-workshop-8.7.1/node_modules/workerpool/dist/workerpool.min.js:25:16221)
-    at process.emit (events.js:200:13)
-    at emit (internal/child_process.js:876:12)
-    at processTicksAndRejections (internal/process/task_queues.js:84:9)
